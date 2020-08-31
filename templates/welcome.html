@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- PAGE -->
+<div class="jumbotron text-center hero-background-img main-page">
+
+    <!-- NAVBAR -->
+    <nav class="main-navbar navbar navbar-expand navbar-dark">
+        <a class="navbar-brand" href="/welcome">{ TWEET GENERATOR }</a>
+        <div class="navbar-nav text-right">
+            <!-- <a class="nav-item nav-link" href="/">More <span class="sr-only">(current)</span></a> -->
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <div class="jumbotron-header-sources">
+            <div class="row">
+                <div class="col-md-8 offset-2">
+                    <div class="row">
+                        <div class="col-md-8 offset-2">
+                            <h1>Choose Text-Source <span class="fas fa-book"></span></h1>
+                            <h5>Tweet Generator will base tweets off of this text source</h5>
+                        </div>
+                    </div>
+                    <div class="sources">
+                        {% for source in text_sources %}
+                            <form action="/setup/{{ source }}" method='POST'>
+                                <div class="card source-card">
+                                    <button type="submit" class="source-selector"><h5 class="source-link">"{{ source }}"</h5>
+                                </div>
+                            </form>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- Form -->
+    <div class="col-md-4 offset-4" style="padding-top: 5%">
+        <div class="d-flex justify-content-center">
+            <form action="/setup/random" class='form-inline'>
+                <button type="submit" class="generate-button btn mb-2">Pick Random</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- FOOTER -->
+    <div style="position: absolute; left: 10px; bottom: 0px">
+        <nav class="navbar navbar-expand navbar-dark">
+            <div class="navbar-nav text-right">
+                <a class="nav-item nav-link" href="/">Andrey Novichkov, 2019 <span class="sr-only">(current)</span></a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+{% endblock %}

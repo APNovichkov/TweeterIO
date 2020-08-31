@@ -1,0 +1,151 @@
+.hero-background-img {
+  position: relative;
+  background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
+  height: 100%;
+  width: 100%;
+}
+
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("/static/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.9; /* Tone the image down further by giving it transparency */
+}
+
+.jumbotron{
+    height: 100vh;
+}
+
+.jumbotron-header-index{
+    color: #FFFFFF;
+    padding-top: 20vh;
+}
+
+.jumbotron-header-favorites{
+    color: #FFFFFF;
+    padding-top: 8vh;
+}
+
+.jumbotron-header-sources{
+    color: #FFFFFF;
+    padding-top: 20vh;
+}
+
+.tweet-card-index{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .1);
+    border: None;
+    margin-top: 20px;
+}
+
+ .tweet-card-favorites{
+     padding: 10px;
+     padding-top: 15px;
+     background-color: rgba(255, 255, 255, .1);
+     border: None;
+     margin-top: 20px;
+ }
+
+.like-card-index{
+    color: #F76C6C;
+    margin-left: -20px;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, .0);
+    border: None;
+    margin-top: 20px
+}
+
+.submit-button{
+    background-color: transparent;
+    border: None
+}
+
+.source-selector{
+    background-color: transparent;
+    border: None
+}
+
+.source-link{
+    color: #EEEEEE
+}
+
+
+.source-card{
+    padding: 10px;
+    padding-top: 15px;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 15px;
+}
+
+.source-card:hover{
+    padding: 10px;
+    padding-top: 15px;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 15px;
+}
+
+.sources{
+    padding-top: 25px;
+    margin-top: 0px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 0px;
+}
+
+.heart{
+     color: #EEEEEE;
+}
+
+.heart:hover{
+    color: #E85A4F;
+}
+
+.heart-from-save{
+    color: #E85A4F;
+}
+
+.favorites-button{
+    margin-left: 10px;
+    background-color: transparent;
+    border-color: #EEEEEE;
+    color: #EEEEEE;
+}
+
+.favorites-button:hover{
+    margin-left: 10px;
+    background-color: transparent;
+    border-color: #3FEEE6;
+    color: #3FEEE6;
+}
+
+.generate-button{
+    background-color: transparent;
+    border-color: #EEEEEE;
+    color: #EEEEEE;
+}
+
+.generate-button:hover{
+    background-color: transparent;
+    border-color: #5CDB95;
+    color: #5CDB95;
+}
+
+.main-page{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.main-navbar{
+    padding-top: 0px;
+    margin-top: 0px;
+}
