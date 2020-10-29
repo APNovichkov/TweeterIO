@@ -1,13 +1,13 @@
 <div style="padding-top: 40px" align="center">
-    <table style="border: none;">
-        <tr style="border: none;">
-            <td style="border: none;">
+    <table style="border: None;">
+        <tr style="border: None;">
+            <td style="border: None;">
                 <h2>Welcome to TweeterIO!</h2>
             </td>
-            <td style="padding-top: 5px; border:none;">
+            <td style="margin-top: 10px; border:None;">
                 <img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
             </td>
-            <td style="border: none;">
+            <td style="border: None;">
                 <h4><a href="http://tweeterio.herokuapp.com/welcome">Official Website</h4>
             </td>
         </tr>
