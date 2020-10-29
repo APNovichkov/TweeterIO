@@ -67,6 +67,6 @@ Contributions are welcome!
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/APNovichkov"><br /><sub><b>Andrey Novichkov</b></sub></a><br /><a href="https://github.com/APNovichkov/ParticleIO/commits/master" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/APNovichkov"><br /><sub><b>Andrey Novichkov</b></sub></a><br /><a href="https://github.com/APNovichkov/TweeterIO/commits/master" title="Code">💻</a></td>
   </tr>
 </table>
