@@ -1,19 +1,15 @@
 <div style="padding-top: 40px" align="center">
-    <table style="border: None;">
-        <tr style="border: None;">
-            <td style="border: None;">
-                <h2>Welcome to TweeterIO!</h2>
-            </td>
-            <td style="margin-top: 10px; border:None;">
-                <img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
-            </td>
-            <td style="border: None;">
-                <h4><a href="http://tweeterio.herokuapp.com/welcome">Official Website</h4>
-            </td>
-        </tr>
-    </table>
-    
+    <h2>Welcome to TweeterIO!</h2>
 </div>
+
+
+<p align="center">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+    <a href="http://tweeterio.herokuapp.com/welcome">Official Website</a>
+</p>
+      
+                
+            
 
 
 <p align="center">
@@ -77,4 +73,4 @@ Contributions are welcome!
   <tr>
     <td align="center"><a href="https://github.com/APNovichkov"><br /><sub><b>Andrey Novichkov</b></sub></a><br /><a href="https://github.com/APNovichkov/ParticleIO/commits/master" title="Code">💻</a></td>
   </tr>
- </table>
+</table>
