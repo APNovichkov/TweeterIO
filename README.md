@@ -1,11 +1,14 @@
 <div style="padding-top: 40px" align="center">
-    <table style="border: none">
-        <tr>
-            <td>
+    <table style="border: none;">
+        <tr style="border: none;">
+            <td style="border: none;">
                 <h2>Welcome to TweeterIO!</h2>
             </td>
-            <td>
+            <td style="padding-top: 5px; border:none;">
                 <img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+            </td>
+            <td style="border: none;">
+                <h4><a href="http://tweeterio.herokuapp.com/welcome">Official Website</h4>
             </td>
         </tr>
     </table>
@@ -17,7 +20,7 @@
 Generate funny Tweets from personalities like Trump or Putin, or in the tone of books such as War and Peace! Under the hood, this Tweet Generator is based on the n'th order Markov Chain principle. Large bodies of text are analyzed turned into a 3rd order Markov Chain, which is then used to randomly generate tweets. 
 </p>
 
-<h3 style="text-center"><a href="http://tweeterio.herokuapp.com/welcome">Official Website</h3>
+
 
 <div align="center">
     <img alt="screenshot" src="docs/images/trump.png">
